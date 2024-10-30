@@ -1,0 +1,26 @@
+models:
+  - name: dim_product_supplies
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: product_id
+        data_type: varchar
+        constraints:
+          - type: not_null
+      - name: product_name
+        data_type: varchar
+        constraints:
+          - type: not_null
+      - name: product_type
+        data_type: varchar
+        constraints:
+          - type: not_null
+      - name: descriptions
+        data_type: varchar
+        constraints:
+          - type: not_null
+      - name: product_price
+        data_type: varchar
+        constraints:
+          - type: not_null
