@@ -2,7 +2,11 @@ version: 2
 
 sources:
   - name: jaffle_shop
+<<<<<<< HEAD
     database: amr_raw
+=======
+    database: raw
+>>>>>>> ad4a7eb3cb4a70bc77a78d3800050907b15f7440
     schema: jaffle_shop
     description: E-commerce data
     tables:
